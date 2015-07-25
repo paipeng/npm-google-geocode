@@ -1,6 +1,6 @@
 {
   "name": "google-geocode",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "client to get latitude and longitude by given address/city",
   "main": "index.js",
   "scripts": {
