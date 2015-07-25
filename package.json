@@ -19,5 +19,7 @@
   "bugs": {
     "url": "https://github.com/paipeng/npm-google-geocode/issues"
   },
-  "homepage": "https://github.com/paipeng/npm-google-geocode#readme"
+  "homepage": "https://github.com/paipeng/npm-google-geocode#readme",
+  "dependencies": {
+  }
 }
