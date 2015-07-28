@@ -1,7 +1,7 @@
 var http = require('https');
 
 var apiKey = undefined;
-var url = 'https://maps.googleapis.com/maps/api/geocode/json?key=';
+var url = 'https://maps.googleapis.com/maps/api/geocode/json?';
 
 
 function setApiKey(key) {
@@ -9,7 +9,11 @@ function setApiKey(key) {
 }
 
 function generateUrl(address) {
-    return url + apiKey + '&address=' + address;
+    var api = "";
+    if (api !== undefined) {
+        api = 'key=' + apiKey + '&'; 
+    }
+    return url + api + 'address=' + address;
 }
 
 function getGeocode(address, success, error) {
